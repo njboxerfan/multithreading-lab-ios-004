@@ -1,12 +1,12 @@
 PODS:
   - Expecta (0.2.4)
-  - KIF (3.0.8):
-    - KIF/XCTest
-  - KIF/XCTest (3.0.8)
-  - OCHamcrest (4.0.1)
-  - OCMockito (1.3.1):
+  - KIF (3.2.0):
+    - KIF/XCTest (= 3.2.0)
+  - KIF/XCTest (3.2.0)
+  - OCHamcrest (4.1.1)
+  - OCMockito (1.4.0):
     - OCHamcrest (~> 4.0)
-  - Specta (0.3.0.beta1)
+  - Specta (0.4.0)
   - Swizzlean (0.1.2)
 
 DEPENDENCIES:
@@ -20,12 +20,17 @@ EXTERNAL SOURCES:
   Specta:
     :git: https://github.com/specta/specta.git
 
+CHECKOUT OPTIONS:
+  Specta:
+    :commit: 9d33792678d04091bffc4f1de74973e64435b98f
+    :git: https://github.com/specta/specta.git
+
 SPEC CHECKSUMS:
   Expecta: 112bcafa2304ee0f3c5e586505f24555a47b25d5
-  KIF: 2db5e8cf59136dd1267d49cca0d55883389b09d3
-  OCHamcrest: b464725bbb48d0f1cd9c6f4ec3cb35fe0c4f2b94
-  OCMockito: 57b8c4bb54ff3a4a14eb2174f9e57faf9f56efb6
-  Specta: 63e8ac8e07db6675c7096d37f77a266a1be4c02d
+  KIF: 6f94a23566fd05b809f5d3bc5231a965b51121b9
+  OCHamcrest: af1c7c5ea345de69ea6c9c2958f65f3044e5c420
+  OCMockito: 991936bb775cc4c27f063d38f5e17b9161fbd21c
+  Specta: b2be891f93bf7555073dc003ffddb92533a7ad01
   Swizzlean: e389af392d2e1bc79757f00c195eddc2a94fdf20
 
-COCOAPODS: 0.34.4
+COCOAPODS: 0.35.0
